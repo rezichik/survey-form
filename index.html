@@ -1,0 +1,49 @@
+<head>
+  <title>cut the rope</title>
+</head>
+<style>
+  body {
+    background-image: url("cut.jpg");
+    background-color: #cccccc;
+  }
+  form{
+    background-color: green;
+    height: 700px;
+    width: 75%;
+    margin-left: 10%;
+    opacity: 0.8;
+    border-radius: 3%;
+    border: 6px solid #73AD21;
+  }
+  .text{
+    font-size: 30px;
+    color: blue;
+  }
+  .input{
+    font-size:25px;
+  }
+</style>
+<body>
+    <h1 style="text-align: center;">Cut The Rope Survey Form</h1>
+    <form>
+    <p class="text">game</p>
+    <input class="input" type="text" placeholder="Your favourite game" maxlength="30" size="30" required/>
+    <p class="text">name</p>
+    <input class="input" type="text" placeholder="Your name" maxlength="30" size="30" required/>
+    <p class="text">age</p>
+    <input class="input" type="text" placeholder="Your age" maxlength="30" size="30" required/>
+    <p class="text">E-mail</p>
+    <input class="input" type="text" placeholder="Your E-mail" maxlength="30" size="30" required/>
+    <hr/><br>
+
+    <legend class="text">Which is your favourite game?</legend>
+    <label class="text">
+       <input type="radio" name="game" maxlength="30" size="30"/>Cut The Rope
+    </label>
+    <label class="text">
+       <input type="radio" name="game" maxlength="30" size="30"/>PUBG
+    </label>
+    <input class="input" type="text" placeholder="If you like other game please type" maxlength="30" size="30"/></hr><br>
+    <button type="submit">submit</button>
+    </form>
+</body>
